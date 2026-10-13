@@ -1,0 +1,26 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.pyc
+*.egg-info/
+dist/
+build/
+.env
+.env.*
+.DS_Store
+# Local credentials, diagnostics and history backups must not be published.
+*.pem
+*.key
+*.p12
+*.pfx
+*.sqlite
+*.sqlite3
+*.db
+*.db-shm
+*.db-wal
+*.bundle
+*.log
+cookies.json
+cookies.txt
+auth.json

@@ -1,0 +1,7 @@
+[mcp_servers.grokweb]
+command = "uv"
+args = ["run", "--frozen", "--directory", "/absolute/path/to/GrokWeb", "grokweb", "serve"]
+tool_timeout_sec = 150
+
+[mcp_servers.grokweb.env]
+GROKWEB_CHROME_PROFILE = "Default"

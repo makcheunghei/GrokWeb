@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "grokweb": {
+      "command": "uv",
+      "args": ["run", "--frozen", "--directory", "/absolute/path/to/GrokWeb", "grokweb", "serve"],
+      "env": {"GROKWEB_CHROME_PROFILE": "Default"}
+    }
+  }
+}
